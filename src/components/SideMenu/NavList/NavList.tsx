@@ -12,14 +12,14 @@ const NavList = () => {
   const navList: NavItmeType[] = [
     {
       id: 1,
-      label: "All Lists",
+      label: "Storege Lists",
       link: "/",
       icon: <FaTasks className="size-5" />,
     },
     {
       id: 2,
-      label: "Storege Lists",
-      link: "/storege",
+      label: "Shopping Lists",
+      link: "/shoppingList",
       icon: <FaRegSquare className="size-5" />,
     },
   ];
