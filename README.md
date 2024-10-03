@@ -1,4 +1,4 @@
-# Shopping List
+<img width="1439" alt="スクリーンショット 2024-10-03 14 41 46" src="https://github.com/user-attachments/assets/8ee61797-9d2f-4699-a60a-d289635cc6af"># Shopping List
 
 ## 概要
 
@@ -16,3 +16,8 @@
 - **MongoDB (mongoose)**: MongoDB データベースに対するシンプルで柔軟なスキーマベースのソリューション。
 - **Tailwind CSS**: ユーティリティファーストの CSS フレームワークで、スタイリングを効率化。
 - **TypeScript**: 型安全な JavaScript 環境。
+
+![Uploading スクリーンショット 2024-10-03 14.41.46.pn<img width="1439" alt="スクリーンショット 2024-10-03 14 41 56" src="https://github.com/user-attachments/assets/3eca3a40-0230-4221-bc00-beabec893d3e">
+g…]()
+
+  
