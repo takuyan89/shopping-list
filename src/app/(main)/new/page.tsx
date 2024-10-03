@@ -1,12 +1,12 @@
-import NewItemForm from "@/components/NewItemForm/NewItemForm";
+import NewTaskForm from "@/components/NewTaskForm/NewTaskForm";
 
-const NewItemPage = () => {
+const NewTaskPage = () => {
   return (
-    <div className="flex flex-col justify-center py-20 ">
+    <div className="flex flex-col justify-center py-20">
       <h2 className="text-center text-2xl font-bold">Create New Item</h2>
-      <NewItemForm />
+      <NewTaskForm />
     </div>
   );
 };
 
-export default NewItemPage;
+export default NewTaskPage;

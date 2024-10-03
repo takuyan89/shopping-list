@@ -1,7 +1,7 @@
-import { FaRegSquare, FaTasks } from "react-icons/fa";
+import { FaRegCheckSquare, FaRegClock, FaTasks } from "react-icons/fa";
 import NavItem from "./NavItem/NavItem";
 
-interface NavItmeType {
+interface NavItemType {
   id: number;
   label: string;
   link: string;
@@ -9,10 +9,10 @@ interface NavItmeType {
 }
 
 const NavList = () => {
-  const navList: NavItmeType[] = [
+  const navList: NavItemType[] = [
     {
       id: 1,
-      label: "Storege Lists",
+      label: "Storage Lists",
       link: "/",
       icon: <FaTasks className="size-5" />,
     },
@@ -20,7 +20,7 @@ const NavList = () => {
       id: 2,
       label: "Shopping Lists",
       link: "/shoppingList",
-      icon: <FaRegSquare className="size-5" />,
+      icon: <FaRegCheckSquare className="size-5" />,
     },
   ];
   return (
