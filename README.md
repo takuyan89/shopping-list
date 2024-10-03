@@ -16,3 +16,10 @@
 - **MongoDB (mongoose)**: MongoDB データベースに対するシンプルで柔軟なスキーマベースのソリューション。
 - **Tailwind CSS**: ユーティリティファーストの CSS フレームワークで、スタイリングを効率化。
 - **TypeScript**: 型安全な JavaScript 環境。
+
+<img width="1439" alt="スクリーンショット 2024-10-03 14 41 46" src="https://github.com/user-attachments/assets/7365647d-502f-4bd5-971d-e01cd0f621f2">
+
+<img width="1439" alt="スクリーンショット 2024-10-03 14 41 56" src="https://github.com/user-attachments/assets/6e979f92-d704-4e3e-9772-d36ec02232f4">
+
+
+
