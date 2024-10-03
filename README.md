@@ -1,38 +1,18 @@
-# nexkut-tasksプロジェクト
+# Shopping List
 
-起動の前に`.env`ファイルを適切に修正してください
+## 概要
 
-## Getting Started
+**Shopping List**は、Next.js、React、MongoDB（mongoose ライブラリを使用）を使用して構築されたタスク管理アプリケーションです。このアプリケーションでは、ショッピングリストの管理など、複数のリストを効率的に管理できます。
 
-First, run the development server:
+## ページ構成
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- `/` - ストレージリスト（Storage Lists）ページ。ユーザーが全てのリストを確認できます。
+- `/shoppingList` - ショッピングリスト（Shopping List）ページ。ショッピング関連のリストが表示されます。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 使用技術
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Next.js** (v14.1.0): React ベースのフレームワークで、サーバーサイドレンダリングや静的サイト生成に対応。
+- **React** (v18): ユーザーインターフェース構築のためのライブラリ。
+- **MongoDB (mongoose)**: MongoDB データベースに対するシンプルで柔軟なスキーマベースのソリューション。
+- **Tailwind CSS**: ユーティリティファーストの CSS フレームワークで、スタイリングを効率化。
+- **TypeScript**: 型安全な JavaScript 環境。
